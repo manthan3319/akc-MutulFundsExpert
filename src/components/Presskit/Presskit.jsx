@@ -7,7 +7,7 @@ const Presskit = () => {
     return (
         <>
             <Speaker_Navbar />
-            <div className='lg:max-w-[1900px] lg:px-[50px] m-auto px-[20px] scroll_section lg:pt-[150px] md:pt-[250px] sm:pt-[190px] pt-[180px]'>
+            <div className='lg:max-w-[1900px] lg:px-[50px] m-auto px-[20px] scroll_section md:pt-[300px] md:pt-[300px] sm:pt-[190px] pt-[180px]'>
                 <div className='text-center'>
                     <Title text="Mutual Funds Press Kit" />
                 </div>

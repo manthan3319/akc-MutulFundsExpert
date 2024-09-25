@@ -51,7 +51,7 @@ const MutualFunds = () => {
     return (
         <div>
             <Speaker_Navbar />
-            <div className='lg:max-w-[1900px] lg:px-[50px] m-auto px-[20px] lg:pt-[150px] md:pt-[250px] sm:pt-[190px] pt-[180px] scroll_section'>
+            <div className='lg:max-w-[1900px] lg:px-[50px] m-auto px-[20px] md:pt-[300px] md:pt-[300px] sm:pt-[190px] pt-[180px] scroll_section'>
                 <div className='flex sm:flex-row flex-col'>
                     <div className='sm:w-[30%] w-[100%]'>
                         <h1 className='text-2xl font-bold mb-4'>Our Services</h1>

@@ -4,11 +4,13 @@ import speaker from "./cb2.png";
 import background2 from "./background_1.jpg";
 import photo1 from "./photo1.jpeg";
 import rulesforlife from "./11-rules-for-life.png";
+import logo from "./logo.png";
 export {
     background,
     shadow1,
     speaker,
     background2,
     photo1,
-    rulesforlife
+    rulesforlife,
+    logo
 }

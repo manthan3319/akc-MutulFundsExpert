@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Drawer from 'react-modern-drawer'
 import 'react-modern-drawer/dist/index.css'
+import { logo } from '../images/Images';
 
 const menuItems = [
     { name: 'HOME', path: '/' },
@@ -23,7 +24,7 @@ const Speaker_Navbar = () => {
                     <div className='flex justify-between items-center'>
                         <div>
                             <Link to="/">
-                                <h1>Logo</h1>
+                                <img src={logo} className='w-[150px]' alt='logo' />
                             </Link>
                         </div>
                         <div>
@@ -42,7 +43,7 @@ const Speaker_Navbar = () => {
             <div className='md:hidden block sticky sm:top-[163px] top-[140px] bg-white p-[15px] border-b-[1px] border-black'>
                 <div className='flex justify-between items-center  '>
                     <div>
-                        <Link to="/">Logo</Link>
+                        <Link to="/"> <img src={logo} className='w-[150px]' alt='logo' /></Link>
                     </div>
                     <div>
                         <button onClick={toggleDrawer} className='text-[25px]'><i class="fa fa-bars" aria-hidden="true"></i></button>
