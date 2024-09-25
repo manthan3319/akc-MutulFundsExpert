@@ -1,13 +1,73 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.speaker_main_box {
+  box-shadow: 0px 1px 7px 7px white;
+  /* border: 6px solid black; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Home.css */
+/* Home.css */
+.home-container {
+  margin: 0;
+  padding: 0;
+  overflow: hidden !important;
+  height: 100vh !important; 
+  display: flex; /* Ensure it uses flex properties correctly */
+  flex-direction: column; /* Stack items vertically */
+}
+
+
+.border-effect {
+    position: relative;
+    display: inline-block; /* Allows border to adjust to text size */
+    color: white;
+    font-size: 35px; /* Adjust as needed */
+    font-weight: bold; /* Keep it bold for emphasis */
+}
+
+.border-effect::before,
+.border-effect::after {
+    content: '';
+    position: absolute;
+    background: #0047ba; /* Border color */
+    transition: all 0.3s ease; /* Animation effect */
+}
+
+.border-effect::before {
+    height: 2px; /* Height of the top border */
+    width: 100%; /* Full width for the top border */
+    top: 0; /* Position at the top */
+    left: 0;
+    transform: translateY(-10px); /* Move above the text */
+}
+
+.border-effect::after {
+    height: 100%; /* Full height for the left border */
+    width: 2px; /* Width of the left border */
+    top: 0;
+    left: 0; /* Position on the left */
+    transform: translateX(-10px); /* Move left of the text */
+}
+
+/* Additional hover effect (optional) */
+.border-effect:hover::before {
+    transform: translateY(0); /* Bring back to normal */
+}
+
+.border-effect:hover::after {
+    transform: translateX(0); /* Bring back to normal */
+}
+
+
+/* .scroll_section{
+  max-height: 527px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+} */
+
+.scroll_section {
+  min-height: 650px;
 }

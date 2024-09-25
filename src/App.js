@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/Home/Home";
+import Navbar from "./components/Navbar/Navbar";
+import InviteAsSpeaker from "./components/InviteAsSpeaker/InviteAsSpeaker";
+import Presskit from "./components/Presskit/Presskit";
+import PhotosVideos from "./components/PhotosVideos/PhotosVideos";
+import Writer from "./components/Writer/Writer";
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/inviteAsspeaker" element={<InviteAsSpeaker />} />
+        <Route path="/press-kit" element={<Presskit />} />
+        <Route path="/photos-videos" element={<PhotosVideos />} />
+        <Route path="/The-Writer" element={<Writer />} />
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
