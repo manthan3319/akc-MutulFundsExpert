@@ -25,7 +25,7 @@ const Home = () => {
                 backgroundAttachment: "fixed",
                 height: viewportHeight,  // Use dynamic height
             }}
-                className='flex items-center relative'>
+                className='flex items-center relative PX-[20px]'>
                 <div className='absolute inset-0 bg-black opacity-80'></div>
 
                 <Link to="/inviteAsspeaker" className='w-[100%] inline-block'>
@@ -34,8 +34,8 @@ const Home = () => {
                         <div className='absolute inset-0  opacity-80'></div>
 
                         <div className='z-[99] text-center'>
-                            <h1 className='text-center text-[55px] font-bold text-white font-oxanium'>
-                                MutulFunds Expert
+                            <h1 className='text-center sm:text-[55px] text-[57px] font-bold text-white font-oxanium'>
+                               OUT SERVICES
                             </h1>
                             <Link to="inviteAsspeaker" className='text-white'>Learn More <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></Link>
                         </div>

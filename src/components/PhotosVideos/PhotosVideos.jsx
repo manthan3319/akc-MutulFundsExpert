@@ -22,7 +22,7 @@ const PhotosVideos = () => {
     return (
         <>
             <Speaker_Navbar />
-            <div className='lg:max-w-[1900px] lg:px-[50px] m-auto px-[20px] scroll_section md:pt-[300px] md:pt-[300px] sm:pt-[190px] pt-[180px]'>
+            <div className='lg:max-w-[1900px] lg:px-[50px] m-auto px-[20px] scroll_section lg:pt-[190px]  md:pt-[300px] sm:pt-[190px] pt-[180px]'>
                 <div className='text-center'>
                     <Title text="Photos / Videos" />
                 </div>
