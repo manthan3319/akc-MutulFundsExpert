@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { background2, speaker } from '../images/Images'; // Adjust the import paths as necessary
+import { background2, logo, speaker } from '../images/Images'; // Adjust the import paths as necessary
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -34,6 +34,7 @@ const Home = () => {
                         <div className='absolute inset-0  opacity-80'></div>
 
                         <div className='z-[99] text-center'>
+                            {/* <img src={logo} className='w-[200px] img_filter m-auto' alt='logo'/> */}
                             <h1 className='text-center sm:text-[55px] text-[57px] font-bold text-white font-oxanium'>
                                OUT SERVICES
                             </h1>

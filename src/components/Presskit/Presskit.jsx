@@ -20,12 +20,12 @@ const Presskit = () => {
 
                     <div>
                         <h1 className='font-bold'>John Doe</h1>
-                        <p className='text-sm'><span className='font-bold'>Email: </span>john.doe@mutualfunds.com</p>
-                        <p className='text-sm'><span className='font-bold'>Call/SMS: </span> +91 9004 111 123</p>
+                        <p className='text-sm'><span className='font-bold'>Email: </span> ankit474@ymail.com</p>
+                        <p className='text-sm'><span className='font-bold'>Call/SMS: </span> +91 9974870436</p>
                     </div>
 
                     <div>
-                        <p className='text-sm'>For images and graphics related to our mutual funds, <span className='italic'>(Click here)</span> or <span className='italic'>(here)</span></p>
+                        {/* <p className='text-sm'>For images and graphics related to our mutual funds, <span className='italic'>(Click here)</span> or <span className='italic'>(here)</span></p> */}
                         <h1 className='font-bold'>To Download the Logos and Covers of Our Mutual Funds, visit:</h1>
 
                         <div className='mt-2 flex flex-col gap-y-2'>

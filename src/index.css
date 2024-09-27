@@ -71,3 +71,7 @@
 .scroll_section {
   min-height: 650px;
 }
+
+.img_filter{
+filter: invert(1);
+}
