@@ -36,7 +36,7 @@ const Home = () => {
                         <div className='z-[99] text-center'>
                             {/* <img src={logo} className='w-[200px] img_filter m-auto' alt='logo'/> */}
                             <h1 className='text-center sm:text-[55px] text-[57px] font-bold text-white font-oxanium'>
-                               OUT SERVICES
+                               OUR SERVICES
                             </h1>
                             <Link to="inviteAsspeaker" className='text-white'>Learn More <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></Link>
                         </div>
