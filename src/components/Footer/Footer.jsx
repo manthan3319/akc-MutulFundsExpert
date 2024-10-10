@@ -31,9 +31,9 @@ const Footer = () => {
                     <div className='flex flex-col items-center mt-[10px]'>
                     <h2 className='sm:text-lg text-[22px] font-bold mb-2'>Social Media</h2>
                         <div className='flex xl:flex-row flex-col gap-x-3'>
-                            <Link className='text-[25px]'><i class="fa fa-facebook-official" aria-hidden="true"></i></Link>
-                            <Link className='text-[25px]'><i class="fa fa-twitter" aria-hidden="true"></i></Link>
-                            <Link className='text-[25px]'><i class="fa fa-instagram" aria-hidden="true"></i></Link>
+                            <Link to="https://www.facebook.com/ankit474?mibextid=ZbWKwL" className='text-[25px]'><i class="fa fa-facebook-official" aria-hidden="true"></i></Link>
+                            <Link to="https://x.com/ankit474?t=yS6C-F_j355jVi9c8BQLXw&s=09" className='text-[25px]'><i class="fa fa-twitter" aria-hidden="true"></i></Link>
+                            <Link to="https://www.linkedin.com/in/ankit474?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className='text-[25px]'><i class="fa fa-linkedin-square" aria-hidden="true"></i></Link>
                         </div>
 
                     </div>
