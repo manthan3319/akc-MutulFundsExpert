@@ -15,6 +15,8 @@ import TaxSavingStrategies from "./TaxSavingStrategies.webp";
 import DematAccountServices from "./DematAccountServices.png";
 import RetirementPlanning from "./RetirementPlanning.jpg";
 import EducationLoans from "./EducationLoans.jpeg";
+import WhatsApp_icon from "./WhatsApp_icon.png";
+
 export {
     background,
     shadow1,
@@ -32,5 +34,6 @@ export {
     TaxSavingStrategies,
     DematAccountServices,
     RetirementPlanning,
-    EducationLoans
+    EducationLoans,
+    WhatsApp_icon
 }

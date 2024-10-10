@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
     return (
         <div>
-            <footer className='mt-10 p-5 bg-gray-900 text-white text-center lg:fixed w-[100%] lg:bottom-0 '>
+            <footer className='mt-10 p-5 bg-gray-900 text-white text-center bottom-0 w-[100%] lg:bottom-0 '>
                 <div className='flex sm:flex-row flex-col gap-[15px] sm:gap-0 justify-between items-center'>
                     <div>
                         <h2 className='sm:text-lg text-[22px] font-bold mb-2'>Contact Us</h2>
@@ -15,7 +15,7 @@ const Footer = () => {
                     <div className='flex flex-col items-center'>
                     <h2 className='sm:text-lg text-[22px] font-bold mb-2'>Email</h2>
                         <div className='flex flex-col gap-y-2'>
-                            <p>ankit474@ymail.com</p>
+                            <p>mail@ankitchaudhari.info</p>
                         </div>
 
                     </div>
@@ -31,7 +31,9 @@ const Footer = () => {
                     <div className='flex flex-col items-center mt-[10px]'>
                     <h2 className='sm:text-lg text-[22px] font-bold mb-2'>Social Media</h2>
                         <div className='flex xl:flex-row flex-col gap-x-3'>
-                            <p>+91 9974870436</p>
+                            <Link className='text-[25px]'><i class="fa fa-facebook-official" aria-hidden="true"></i></Link>
+                            <Link className='text-[25px]'><i class="fa fa-twitter" aria-hidden="true"></i></Link>
+                            <Link className='text-[25px]'><i class="fa fa-instagram" aria-hidden="true"></i></Link>
                         </div>
 
                     </div>

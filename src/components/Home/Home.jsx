@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { background2, logo, speaker } from '../images/Images'; // Adjust the import paths as necessary
 import { Link } from 'react-router-dom';
+import WhatshappIcon from '../WhatshappIcon/WhatshappIcon';
 
 const Home = () => {
     const [viewportHeight, setViewportHeight] = useState(window.innerHeight);
@@ -42,15 +43,8 @@ const Home = () => {
                         </div>
                     </div>
                 </Link>
-
-                {/* <Link to="/The-Writer" className='w-[50%] z-[99] '>
-                    <div className=' text-center'>
-                        <h1 className='text-center text-[35px] font-bold text-white font-oxanium border-effect'>
-                            THE WRITER
-                        </h1>
-                    </div>
-                </Link> */}
             </div>
+            <WhatshappIcon/>
         </div>
     );
 };

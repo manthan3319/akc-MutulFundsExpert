@@ -9,6 +9,7 @@ const menuItems = [
     { name: 'OUR SERVICES', path: '/The-Writer' },
     { name: 'PRESS KIT', path: '/press-kit' },
     { name: 'PHOTOS/VIDEOS', path: '/photos-videos' },
+    { name: 'INQUIRY FROM', path: '/inquiryfrom' },
 ];
 
 const Speaker_Navbar = () => {
@@ -40,7 +41,7 @@ const Speaker_Navbar = () => {
                 </div>
             </div>
 
-            <div className='md:hidden block sticky sm:top-[163px] top-[140px] bg-white p-[15px] border-b-[1px] border-black'>
+            <div className='md:hidden block sticky sm:top-[163px] top-[140px] bg-white p-[15px] border-b-[1px] border-black z-[9999]'>
                 <div className='flex justify-between items-center  '>
                     <div>
                         <Link to="/"> <img src={logo} className='w-[150px]' alt='logo' /></Link>

@@ -8,11 +8,11 @@ const Navbar = () => {
                     
                     {/* Email Section */}
                     <div className='flex items-center gap-[5px]'>
-                        <a href="mailto:ankit474@ymail.com" className="flex items-center gap-[5px]">
+                        <a href="mailto:mail@ankitchaudhari.info" className="flex items-center gap-[5px]">
                             <p className='text-white sm:text-[25px]'>
                                 <i className="fa fa-envelope" aria-hidden="true"></i>
                             </p>
-                            <p className='text-white font-roboto sm:text-[18px] mt-[6px]'>ankit474@ymail.com</p>
+                            <p className='text-white font-roboto sm:text-[18px] mt-[6px]'>mail@ankitchaudhari.info</p>
                         </a>
                     </div>
 

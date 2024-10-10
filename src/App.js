@@ -6,6 +6,7 @@ import InviteAsSpeaker from "./components/InviteAsSpeaker/InviteAsSpeaker";
 import Presskit from "./components/Presskit/Presskit";
 import PhotosVideos from "./components/PhotosVideos/PhotosVideos";
 import Writer from "./components/Writer/Writer";
+import InquiryFrom from "./components/InquiryFrom/InquiryFrom";
 const App = () => {
   return (
     <BrowserRouter>
@@ -16,7 +17,9 @@ const App = () => {
         <Route path="/press-kit" element={<Presskit />} />
         <Route path="/photos-videos" element={<PhotosVideos />} />
         <Route path="/The-Writer" element={<Writer />} />
+        <Route path="/inquiryfrom" element={<InquiryFrom />} />
       </Routes>
+      
     </BrowserRouter>
   );
 };

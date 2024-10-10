@@ -2,12 +2,13 @@ import React from 'react';
 import Speaker_Navbar from '../Speaker_Navbar/Speaker_Navbar';
 import Footer from '../Footer/Footer';
 import Title from '../Function/Function';
+import WhatshappIcon from '../WhatshappIcon/WhatshappIcon';
 
 const Presskit = () => {
     return (
         <>
             <Speaker_Navbar />
-            <div className='lg:max-w-[1900px] lg:px-[50px] m-auto px-[20px] scroll_section lg:pt-[190px]  md:pt-[300px] sm:pt-[190px] pt-[180px]'>
+            <div className='lg:max-w-[1900px] lg:px-[50px] m-auto px-[20px] min-h-[80vh] lg:pt-[190px]  md:pt-[300px] sm:pt-[190px] pt-[180px]'>
                 <div className='text-center'>
                     <Title text="Mutual Funds Press Kit" />
                 </div>
@@ -20,7 +21,7 @@ const Presskit = () => {
 
                     <div>
                         <h1 className='font-bold'>John Doe</h1>
-                        <p className='text-sm'><span className='font-bold'>Email: </span> ankit474@ymail.com</p>
+                        <p className='text-sm'><span className='font-bold'>Email: </span> mail@ankitchaudhari.info</p>
                         <p className='text-sm'><span className='font-bold'>Call/SMS: </span> +91 9974870436</p>
                     </div>
 
@@ -40,6 +41,7 @@ const Presskit = () => {
                         <p className='text-sm italic mt-[10px]'>You are free to use all information and images from this website for promotional purposes.</p>
                     </div>
                 </div>
+                <WhatshappIcon/>
             </div>
             <Footer />
         </>

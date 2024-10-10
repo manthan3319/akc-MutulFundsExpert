@@ -2,12 +2,13 @@ import React from 'react';
 import Speaker_Navbar from '../Speaker_Navbar/Speaker_Navbar';
 import Footer from '../Footer/Footer';
 import Title from '../Function/Function';
+import WhatshappIcon from '../WhatshappIcon/WhatshappIcon';
 
 const InviteAsSpeaker = () => {
     return (
         <>
             <Speaker_Navbar />
-            <div className='lg:max-w-[1900px] lg:px-[50px] m-auto px-[20px] scroll_section lg:pt-[190px] md:pt-[300px] sm:pt-[190px] pt-[180px]'>
+            <div className='lg:max-w-[1900px] lg:px-[50px] m-auto px-[20px] relative lg:pt-[190px] md:pt-[300px] sm:pt-[190px] pt-[180px]'>
                 <div>
                     <Title text="Become a Part of Mutual Funds Expert!" />
                 </div>
@@ -47,8 +48,8 @@ const InviteAsSpeaker = () => {
                         <p className='md:text-[21px] pb-[12px] font-Mulish'>Join us at Mutual Funds Expert and take the first step towards a secure financial future!</p>
                     </div>
                 </div>
+                <WhatshappIcon/>
             </div>
-
             <Footer />
         </>
     );
