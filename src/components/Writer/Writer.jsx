@@ -5,55 +5,55 @@ import { degital_gold, DematAccountServices, dilysip, EducationLoans, FixedDepos
 import WhatshappIcon from '../WhatshappIcon/WhatshappIcon';
 
 const services = [
-    { 
-        title: 'Daily SIP', 
+    {
+        title: 'Daily SIP',
         description: 'Systematic Investment Plans (SIP) allow you to invest a fixed amount regularly, helping you build wealth over time. It’s a disciplined approach to investing, suitable for both beginners and experienced investors.',
-        img:dilysip 
+        img: dilysip
     },
-    { 
-        title: 'Digital Gold', 
-        description: 'Investing in digital gold gives you the flexibility to buy gold in small amounts. It is a secure way to invest in gold, and you can sell it whenever you want at market prices.', 
-        img:degital_gold
+    {
+        title: 'Digital Gold',
+        description: 'Investing in digital gold gives you the flexibility to buy gold in small amounts. It is a secure way to invest in gold, and you can sell it whenever you want at market prices.',
+        img: degital_gold
     },
-    { 
-        title: 'Mutual Funds', 
+    {
+        title: 'Mutual Funds',
         description: 'We offer expert advice on selecting mutual funds that align with your financial goals, whether you seek growth, stability, or a balance of both. Our tailored strategies help you maximize your returns while managing risk.',
-        img:mutualfund
+        img: mutualfund
     },
-    { 
-        title: 'Fixed Deposits', 
+    {
+        title: 'Fixed Deposits',
         description: 'Fixed deposits provide a safe investment avenue with guaranteed returns. Choose your tenure and earn a fixed interest rate that suits your financial planning, perfect for conservative investors.',
-        img:FixedDeposits 
+        img: FixedDeposits
     },
-    { 
-        title: 'Health Insurance', 
+    {
+        title: 'Health Insurance',
         description: 'Comprehensive health insurance plans protect you and your family against unforeseen medical expenses. We provide various plans tailored to your needs, ensuring you get the best coverage for your health.',
-        img:HealthInsurance 
+        img: HealthInsurance
     },
-    { 
-        title: 'RBI Bonds', 
+    {
+        title: 'RBI Bonds',
         description: 'Invest in government securities with RBI bonds, offering attractive returns with the safety of government backing. These bonds are suitable for risk-averse investors seeking steady income.',
-        img:RBIBonds 
+        img: RBIBonds
     },
-    { 
-        title: 'Tax Saving Strategies', 
+    {
+        title: 'Tax Saving Strategies',
         description: 'Optimize your tax liability with our expert strategies. We provide insights on tax-saving investments that comply with government regulations while maximizing your deductions.',
-        img:TaxSavingStrategies 
+        img: TaxSavingStrategies
     },
-    { 
-        title: 'Demat Account Services', 
+    {
+        title: 'Demat Account Services',
         description: 'Easily manage your stocks and mutual funds through our Demat account services. We ensure a seamless experience for buying and selling securities, making investing hassle-free.',
-        img:DematAccountServices 
+        img: DematAccountServices
     },
-    { 
-        title: 'Retirement Planning', 
+    {
+        title: 'Retirement Planning',
         description: 'Secure your financial future with our retirement planning services. We help you create a personalized retirement fund that meets your lifestyle goals, ensuring peace of mind during your golden years.',
-        img:RetirementPlanning 
+        img: RetirementPlanning
     },
-    { 
-        title: 'Education Loans', 
-        description: 'Invest in your or your child’s future with our education loan services. We provide competitive interest rates and flexible repayment options to make quality education accessible.' ,
-        img:EducationLoans
+    {
+        title: 'Education Loans',
+        description: 'Invest in your or your child’s future with our education loan services. We provide competitive interest rates and flexible repayment options to make quality education accessible.',
+        img: EducationLoans
     },
 ];
 
@@ -69,9 +69,9 @@ const MutualFunds = () => {
                         <h1 className='text-2xl font-bold mb-4'>Our Services</h1>
                         <ul className='list-disc ml-5'>
                             {(services || []).map((service, index) => (
-                                <li 
-                                    key={index} 
-                                    className='cursor-pointer text-blue-600 hover:underline' 
+                                <li
+                                    key={index}
+                                    className='cursor-pointer text-blue-600 hover:underline'
                                     onClick={() => setSelectedService(service)}
                                 >
                                     {service.title}
@@ -85,11 +85,16 @@ const MutualFunds = () => {
                         <p className='text-gray-700 text-[18px]'>{selectedService.description}</p>
 
                         <div className='my-[25px]'>
-                            <img src={selectedService.img} alt='img' className=' w-[500px] rounded-xl min-h-[300px] border-[1px] border-black'/>
+                            <img src={selectedService.img} alt='img' className=' w-[500px] rounded-xl min-h-[300px] border-[1px] border-black' />
                         </div>
+
+                        <button className='bg-gray-800 text-white px-4 py-2 text-lg font-normal rounded-md  '>
+                            <a href="https://wa.me/919974870436" className='flex justify-center items-center gap-2 '> connect on <i class="fa fa-whatsapp mt-1" aria-hidden="true" ></i>
+                        </a>
+                         </button>
                     </div>
                 </div>
-                <WhatshappIcon/>
+                <WhatshappIcon />
             </div>
             <Footer />
         </div>
