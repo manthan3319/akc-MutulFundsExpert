@@ -3,6 +3,7 @@ import Speaker_Navbar from '../Speaker_Navbar/Speaker_Navbar';
 import Footer from '../Footer/Footer';
 import WhatsAppIcon from '../WhatshappIcon/WhatshappIcon';
 import Title from '../Function/Function';
+import emailjs from 'emailjs-com';
 
 const InquiryForm = () => {
     const [formData, setFormData] = useState({
@@ -20,8 +21,21 @@ const InquiryForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         // यहाँ आप सबमिशन हैंडलिंग लॉजिक जोड़ सकते हैं
+        sendEmail(formData)
         console.log('Form submitted:', formData);
     };
+
+    const sendEmail = () => {
+        emailjs.send('service_8b8xt6k', 'template_h05wyof', formData, 'AfzZZDqcPQESQXDwl')
+            .then((response) => {
+                console.log('Email sent successfully!', response.status, response.text);
+                alert('Your inquiry has been sent successfully!');
+            })
+            .catch((error) => {
+                console.error('failed to send email', error);
+
+            })
+    }
 
     return (
         <div>
