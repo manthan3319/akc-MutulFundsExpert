@@ -18,7 +18,7 @@ const Navbar = () => {
 
                     {/* Phone Call Section */}
                     <div className='flex items-center gap-[5px]'>
-                        <a href="tel:+919974870436" className="flex items-center gap-[5px]">
+                        <a href="https://wa.me/919974870436" className="flex items-center gap-[5px]">
                             <p className='text-white sm:text-[25px]'>
                                 <i className="fa fa-phone-square" aria-hidden="true"></i>
                             </p>

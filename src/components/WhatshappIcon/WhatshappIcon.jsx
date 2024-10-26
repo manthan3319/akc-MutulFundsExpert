@@ -2,11 +2,10 @@ import React from 'react';
 import { WhatsApp_icon } from '../images/Images';
 
 const WhatsAppIcon = () => {
-  const phoneNumber = "+919974870436"; // अपना फोन नंबर यहाँ डालें
-
+  
   return (
     <a 
-      href={`https://api.whatsapp.com/send/?phone=${phoneNumber}`} 
+      href=' https://wa.me/919974870436'
       target="_blank" 
       rel="noopener noreferrer" 
       className="fixed right-[10px] bottom-[10px] z-[9]"
