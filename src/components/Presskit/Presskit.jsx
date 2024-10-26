@@ -21,7 +21,7 @@ const Presskit = () => {
 
                     <div>
                         <h1 className='font-bold'>John Doe</h1>
-                        <p className='text-sm'><span className='font-bold'>Email: </span> mail@ankitchaudhari.info</p>
+                        <p className='text-sm'><span className='font-bold'>Email: </span>Sales@chaudharienterprise.in</p>
                         <p className='text-sm'><span className='font-bold'>Call/SMS: </span> +91 9974870436</p>
                     </div>
 

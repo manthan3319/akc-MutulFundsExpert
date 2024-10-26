@@ -12,7 +12,7 @@ const Navbar = () => {
                             <p className='text-white sm:text-[25px]'>
                                 <i className="fa fa-envelope" aria-hidden="true"></i>
                             </p>
-                            <p className='text-white font-roboto sm:text-[18px] mt-[6px]'>mail@ankitchaudhari.info</p>
+                            <p className='text-white font-roboto sm:text-[18px] mt-[6px]'>Sales@chaudharienterprise.in</p>
                         </a>
                     </div>
 
