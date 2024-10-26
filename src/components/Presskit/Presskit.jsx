@@ -30,12 +30,12 @@ const Presskit = () => {
                         <h1 className='font-bold'>To Download the Logos and Covers of Our Mutual Funds, visit:</h1>
 
                         <div className='mt-2 flex flex-col gap-y-2'>
-                            <p className='text-sm'>– Equity Fund – <span className='italic'>(High Res | AI File)</span></p>
-                            <p className='text-sm'>– Debt Fund – <span className='italic'>(High Res | AI File)</span></p>
-                            <p className='text-sm'>– Balanced Fund – <span className='italic'>(High Res | AI File)</span></p>
-                            <p className='text-sm'>– Tax Saving Fund – <span className='italic'>(High Res | AI File)</span></p>
-                            <p className='text-sm'>– Index Fund – <span className='italic'>(High Res | AI File)</span></p>
-                            <p className='text-sm'>– Mutual Fund Brochure – <span className='italic'>(High Res | PDF File)</span></p>
+                            <p className='text-sm'>– Equity Fund </p>
+                            <p className='text-sm'>– Debt Fund </p>
+                            <p className='text-sm'>– Balanced Fund </p>
+                            <p className='text-sm'>– Tax Saving Fund </p>
+                            <p className='text-sm'>– Index Fund </p>
+                            <p className='text-sm'>– Mutual Fund Brochure</p>
                         </div>
 
                         <p className='text-sm italic mt-[10px]'>You are free to use all information and images from this website for promotional purposes.</p>
