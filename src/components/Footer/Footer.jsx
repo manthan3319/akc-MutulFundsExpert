@@ -15,7 +15,7 @@ const Footer = () => {
                     <div className='flex flex-col items-center'>
                     <h2 className='sm:text-lg text-[22px] font-bold mb-2'>Email</h2>
                         <div className='flex flex-col gap-y-2'>
-                            <p>mail@ankitchaudhari.info</p>
+                            <p>Sales@chaudharienterprise.in</p>
                         </div>
 
                     </div>
