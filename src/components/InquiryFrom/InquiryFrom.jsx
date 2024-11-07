@@ -10,6 +10,7 @@ const InquiryForm = () => {
         name: '',
         email: '',
         phone: '',
+        subject: '',
         message: ''
     });
 
@@ -25,8 +26,9 @@ const InquiryForm = () => {
         console.log('Form submitted:', formData);
     };
 
+
     const sendEmail = () => {
-        emailjs.send('service_8b8xt6k', 'template_h05wyof', formData, 'AfzZZDqcPQESQXDwl')
+        emailjs.send('service_vjpzcpp', 'template_ewl9c45', formData, 'XxqsYeiord2Q2G_0E' )
             .then((response) => {
                 console.log('Email sent successfully!', response.status, response.text);
                 alert('Your inquiry has been sent successfully!');
@@ -84,7 +86,7 @@ const InquiryForm = () => {
                                     type="text"
                                     name="subject"
                                     placeholder="Your Subject"
-                                    value={formData.phone}
+                                    value={formData.subject}
                                     onChange={handleChange}
                                     required
                                     className="p-[10px] border border-gray-300 rounded-[5px] focus:outline-none focus:ring focus:ring-blue-300"
