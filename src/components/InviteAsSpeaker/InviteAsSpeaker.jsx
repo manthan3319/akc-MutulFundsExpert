@@ -26,7 +26,7 @@ const InviteAsSpeaker = () => {
                         ></iframe>
                     </div> */}
 
-                    <div className='xl:w-[100%] sm:w-[100%] w-[100%] overflow-y-auto max-h-[calc(100vh-100px)] '> 
+                    <div className='xl:w-[100%] sm:w-[100%] w-[100%] overflow-y-auto max-h-[calc(100vh-100px)]'> 
                         <p className='md:text-[21px] pb-[12px] font-Mulish font-normal'>Mutual Funds Expert, founded by Ankit Kumar Chaudhari, is a leading financial advisory firm focused on helping clients navigate the intricacies of investment strategies. Our mission is to empower individuals and businesses to achieve their financial goals through informed decisions and personalized investment solutions.</p>
 
                         <p className='md:text-[21px] pb-[12px] font-Mulish'>At Mutual Funds Expert, we prioritize building strong relationships with our clients by offering transparent and trustworthy financial advice. Our client-centric approach ensures we understand your unique financial needs and tailor our services accordingly. With a team of seasoned professionals, we are dedicated to guiding you through the dynamic financial landscape, enabling you to make the best choices for your future.</p>

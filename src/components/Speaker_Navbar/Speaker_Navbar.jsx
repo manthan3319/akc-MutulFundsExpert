@@ -6,10 +6,10 @@ import { logo } from '../images/Images';
 
 const menuItems = [
     { name: 'HOME', path: '/' },
-    { name: 'OUR SERVICES', path: '/The-Writer' },
+    { name: 'OUR SERVICES', path: '/services' },
     { name: 'PRESS KIT', path: '/press-kit' },
-    { name: 'PHOTOS/VIDEOS', path: '/photos-videos' },
-    { name: 'INQUIRY FROM', path: '/inquiryfrom' },
+    { name: 'PHOTOS/VIDEOS', path: '/media-gallery' },
+    { name: 'INQUIRY FROM', path: '/contact-inquiry' },
 ];
 
 const Speaker_Navbar = () => {

@@ -13,11 +13,11 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/inviteAsspeaker" element={<InviteAsSpeaker />} />
+        <Route path="/Mutual-Funds-Expert" element={<InviteAsSpeaker />} />
         <Route path="/press-kit" element={<Presskit />} />
-        <Route path="/photos-videos" element={<PhotosVideos />} />
-        <Route path="/The-Writer" element={<Writer />} />
-        <Route path="/inquiryfrom" element={<InquiryFrom />} />
+        <Route path="/media-gallery" element={<PhotosVideos />} />
+        <Route path="/services" element={<Writer />} />
+        <Route path="/contact-inquiry" element={<InquiryFrom />} />
       </Routes>
       
     </BrowserRouter>

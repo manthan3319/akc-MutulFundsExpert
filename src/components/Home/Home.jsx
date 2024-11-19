@@ -29,7 +29,7 @@ const Home = () => {
                 className='flex items-center relative PX-[20px]'>
                 <div className='absolute inset-0 bg-black opacity-80'></div>
 
-                <Link to="/inviteAsspeaker" className='w-[100%] inline-block'>
+                <Link to="/Mutual-Funds-Expert" className='w-[100%] inline-block'>
                     <div 
                         className='flex items-center relative justify-center'>
                         <div className='absolute inset-0  opacity-80'></div>
