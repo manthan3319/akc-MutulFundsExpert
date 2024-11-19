@@ -14,8 +14,8 @@ const InviteAsSpeaker = () => {
                 </div>
 
                 <div className='flex sm:flex-row flex-col gap-[30px] mt-[25px]'>
-                    <div className='sm:w-[30%] w-[100%]'>
-                        {/* Embed a YouTube video */}
+                    {/* <div className='sm:w-[30%] w-[100%]'>
+
                         <iframe
                             src="https://www.youtube.com/embed/YOUR_VIDEO_ID" // Replace with your YouTube video ID
                             title="Demo Video"
@@ -24,9 +24,9 @@ const InviteAsSpeaker = () => {
                             allowFullScreen
                             className='sm:w-[100%] sm:h-[400px] h-[200px] w-[100%]'
                         ></iframe>
-                    </div>
+                    </div> */}
 
-                    <div className='xl:w-[60%] sm:w-[70%] w-[100%] overflow-y-auto max-h-[calc(100vh-100px)] '> 
+                    <div className='xl:w-[100%] sm:w-[100%] w-[100%] overflow-y-auto max-h-[calc(100vh-100px)] '> 
                         <p className='md:text-[21px] pb-[12px] font-Mulish font-normal'>Mutual Funds Expert, founded by Ankit Kumar Chaudhari, is a leading financial advisory firm focused on helping clients navigate the intricacies of investment strategies. Our mission is to empower individuals and businesses to achieve their financial goals through informed decisions and personalized investment solutions.</p>
 
                         <p className='md:text-[21px] pb-[12px] font-Mulish'>At Mutual Funds Expert, we prioritize building strong relationships with our clients by offering transparent and trustworthy financial advice. Our client-centric approach ensures we understand your unique financial needs and tailor our services accordingly. With a team of seasoned professionals, we are dedicated to guiding you through the dynamic financial landscape, enabling you to make the best choices for your future.</p>
