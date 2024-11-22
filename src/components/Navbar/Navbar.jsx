@@ -43,7 +43,7 @@ const Navbar = () => {
 
                     {/* Message Section */}
                     <div className='flex items-center gap-[5px]'>
-                        <p className='text-white font-roboto sm:text-[18px] mt-[6px]'>Your Wealth Creation Journey with us!</p>
+                        <p className='text-white font-roboto sm:text-[18px] mt-[6px]'>Start your Wealth Creation Journey with us!</p>
                     </div>
 
                 </div>
